@@ -4,4 +4,4 @@ an diff data parser
 
 ## Docs list
 
-- [Log](./log)
+- [Log](log/README.md)
