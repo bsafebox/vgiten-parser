@@ -45,7 +45,7 @@ export default [
     external,
     output: [
       {
-        name: 'Log',
+        name: 'logger',
         file: 'dist/index.js',
         format: 'umd',
         banner,

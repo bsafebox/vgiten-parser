@@ -1,11 +1,10 @@
 {
-    "extends": "../../tsconfig.pkg.json",
-    "compilerOptions": {
-        "outDir": "./lib/",
-        "rootDir": "src"
-    },
-    "exclude": [],
-    "include": [
-        "src/*"
-    ]
+  "extends": "../../tsconfig.pkg.json",
+  "compilerOptions": {
+    "outDir": "./lib/",
+    "rootDir": "src",
+    "noPropertyAccessFromIndexSignature": false
+  },
+  "exclude": [],
+  "include": ["src/*"]
 }
